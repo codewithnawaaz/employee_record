@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Table</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f8f9fa;
+        color: #333;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        form {
+          grid-template-columns: 1fr;
+          grid-gap: 10px;
+        }
+
+        label {
+          align-self: start;
+        }
+
+        input,
+        select {
+          font-size: 14px;
+          padding: 6px;
+        }
+
+        button {
+          font-size: 14px;
+          padding: 8px 12px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        form {
+          padding: 15px;
+        }
+
+        h3 {
+          font-size: 15px;
+        }
+
+        input,
+        select {
+          font-size: 14px;
+          padding: 5px;
+        }
+
+        button {
+          font-size: 12px;
+          padding: 6px 10px;
+        }
+
+        table th,
+        table td {
+          font-size: 12px;
+          padding: 8px;
+        }
+
+        /* Increase dropdown size */
+        select {
+          font-size: 14px;
+        }
+      }
+
+      h3 {
+        color: #007bff;
+        margin-bottom: 20px;
+      }
+
+      form {
+        margin-bottom: 20px;
+        padding: 20px;
+        background: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        grid-gap: 15px;
+        max-width: 600px;
+      }
+
+      label {
+        font-weight: bold;
+        align-self: center;
+      }
+
+      input,
+      select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+        transition: border-color 0.3s;
+      }
+
+      input:focus,
+      select:focus {
+        border-color: #007bff;
+        outline: none;
+      }
+
+      button {
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s, transform 0.2s;
+        grid-column: span 2;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid #ddd;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #007bff;
+        color: white;
+      }
+
+      td {
+        background-color: #fdfdfe;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Employee Form</h3>
+    <form id="employeeForm">
+      <label for="name">Employee Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="id">Employee ID:</label>
+      <input type="text" id="id" required />
+
+      <label for="profession">Profession:</label>
+      <select id="profession" required>
+        <option value="">Select Profession</option>
+        <option value="Painter">Painter</option>
+        <option value="Gypsum Installer">Gypsum Installer</option>
+        <option value="Helper">Helper</option>
+        <option value="Mason">Mason</option>
+        <option value="Mason Tiler">Mason Tiler</option>
+        <option value="Team Leader">Team Leader</option>
+        <option value="Forman">Forman</option>
+        <option value="Weldor">Weldor</option>
+        <option value="Supervisor">Supervisor</option>
+        <option value="Time Keeper">Time Keeper</option>
+        <option value="Rigger">Rigger</option>
+        <option value="Plumber">Plumber</option>
+        <option value="Electrician">Electrician</option>
+        <option value="Steel Door Installer">Steel Door Installer</option>
+      </select>
+
+      <label for="site">Site:</label>
+      <select id="site" required>
+        <option value="">Select Site</option>
+        <option value="HC-02">HC-02</option>
+        <option value="HC-03">HC-03</option>
+        <option value="HC-03">Null</option>
+      </select>
+
+      <label for="transferFrom">Transfer From:</label>
+      <input type="text" id="transferFrom" required />
+
+      <button type="submit">Add to Table</button>
+    </form>
+
+    <h3>Employee Table</h3>
+    <table id="employeeTable">
+      <thead>
+        <tr>
+          <th>Serial No.</th>
+          <th>Employee Name</th>
+          <th>ID</th>
+          <th>Profession</th>
+          <th>Site</th>
+          <th>Transfer From</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <button id="exportTable">Export to Excel</button>
+
+    <script>
+      const form = document.getElementById("employeeForm");
+      const tableBody = document
+        .getElementById("employeeTable")
+        .querySelector("tbody");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        const name = document.getElementById("name").value.trim();
+        const id = document.getElementById("id").value.trim();
+        const profession = document.getElementById("profession").value;
+        const site = document.getElementById("site").value;
+        const transferFrom = document
+          .getElementById("transferFrom")
+          .value.trim();
+
+        if (!name || !id || !profession || !site || !transferFrom) {
+          alert("Please fill out all fields.");
+          return;
+        }
+
+        const newRow = tableBody.insertRow();
+        const serialNumber = tableBody.rows.length;
+
+        newRow.insertCell(0).textContent = serialNumber;
+        newRow.insertCell(1).textContent = name;
+        newRow.insertCell(2).textContent = id;
+        newRow.insertCell(3).textContent = profession;
+        newRow.insertCell(4).textContent = site;
+        newRow.insertCell(5).textContent = transferFrom;
+
+        form.reset();
+
+        const scriptUrl =
+          "https://script.google.com/macros/s/AKfycbyhzrBsygXtFpDSE9Ef2RBtgjlxesvVh2jjjppE488rakf3toyRyK8UpKB2wyj46BYB/exec";
+
+        const formData = new FormData();
+        formData.append("name", name);
+        formData.append("id", id);
+        formData.append("profession", profession);
+        formData.append("site", site);
+        formData.append("transferFrom", transferFrom);
+
+        fetch(scriptUrl, {
+          method: "POST",
+          body: formData,
+        })
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.text();
+          })
+          .then((result) => console.log(result))
+          .catch((error) => console.error("Error:", error));
+      });
+
+      document.getElementById("exportTable").addEventListener("click", () => {
+        const table = document.getElementById("employeeTable");
+        const rows = Array.from(table.querySelectorAll("tr"));
+        let csvContent = rows
+          .map((row) =>
+            Array.from(row.querySelectorAll("th, td"))
+              .map((cell) => cell.textContent)
+              .join(",")
+          )
+          .join("\n");
+
+        const blob = new Blob([csvContent], { type: "text/csv" });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "Employee_Table.csv";
+        link.click();
+        URL.revokeObjectURL(url);
+      });
+    </script>
+  </body>
+</html>

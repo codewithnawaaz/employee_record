@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        width: 300px;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+      }
+
+      .card h2 {
+        font-size: 1.5rem;
+        color: #333;
+      }
+
+      .card p {
+        font-size: 1rem;
+        color: #666;
+        margin: 10px 0;
+      }
+
+      .card a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #007bff;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .card a:hover {
+        background-color: #0056b3;
+      }
+
+      header {
+        background-color: #484d52;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+
+      .card img {
+        width: 250px; /* Set fixed width */
+        height: 150px; /* Set fixed height */
+        object-fit: cover;
+        border-radius: 5px;
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Hc-03</h1>
+    </header>
+    <div class="container">
+      <!-- Manpower Log Check Card -->
+      <div class="card">
+        <h2>Manpower Log Check</h2>
+        <img src="./img/manpower.jpg" alt="Manpower Log" />
+        <a href="manpower_log.html" target="_blank">Go</a>
+      </div>
+
+      <!-- Overtime Check Card -->
+      <div class="card">
+        <h2>Overtime Check</h2>
+        <img src="./img/overtime.jpg" alt="Overtime Check" />
+        <a href="overtime.html">Go</a>
+      </div>
+
+      <!-- Transfer Employee Card -->
+      <div class="card">
+        <h2>Transfer Employee</h2>
+        <img src="./img/transfer.jpg" alt="Transfer Employee" />
+        <a href="transfer.html">Go</a>
+      </div>
+    </div>
+  </body>
+</html>
