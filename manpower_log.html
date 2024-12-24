@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Employee Details</title>
+    <title>RedSea HC-03,HC-02</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -142,7 +142,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>Employee Details</h1>
+      <h1>RedSea HC-03,HC-02</h1>
       <div>
         <input type="number" id="employeeID" placeholder="Enter Employee ID" />
         <button onclick="getEmployeeDetails()">Search</button>
@@ -151,7 +151,7 @@
       <table id="employeeTable">
         <thead>
           <tr>
-            <th>No</th>
+            <th>Site</th>
             <th>Name</th>
             <th>ID</th>
             <th>Position</th>
@@ -216,7 +216,7 @@
 
         // Create a new row
         const row = tableBody.insertRow();
-        row.insertCell(0).textContent = employee["No. "]; // Note the exact key
+        row.insertCell(0).textContent = employee["Site"]; // Note the exact key
         row.insertCell(1).textContent = employee["Name"];
         row.insertCell(2).textContent = employee["ID"];
         row.insertCell(3).textContent = employee["Position"];
