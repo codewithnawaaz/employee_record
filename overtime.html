@@ -54,6 +54,17 @@
       button:hover {
         background-color: #45a049;
       }
+      .home-link {
+        margin-top: 10px;
+        margin-left: 20px; /* Adjust the value as needed */
+        text-decoration: none; /* Removes underline */
+        color: #1826a3; /* Link color */
+        font-size: 18px; /* Adjust font size */
+      }
+
+      .home-link:hover {
+        color: #0056b3; /* Hover effect color */
+      }
 
       table {
         width: 100%;
@@ -132,6 +143,7 @@
       <div class="input-container">
         <input type="number" id="employeeID" placeholder="Enter Employee ID" />
         <button onclick="getEmployeeDetails()">Search</button>
+        <a href="index.html" class="home-link">Home</a>
       </div>
       <div id="employeeErrorMessage" class="error-message"></div>
       <div class="tables-container">

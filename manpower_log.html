@@ -58,7 +58,17 @@
       button:hover {
         background-color: #45a049;
       }
+      .home-link {
+        margin-left: 20px; /* Adjust the value as needed */
+        text-decoration: none; /* Removes underline */
+        color: #007bff; /* Link color */
+        font-size: 18px; /* Adjust font size */
+      }
 
+      .home-link:hover {
+        color: #0056b3; /* Hover effect color */
+        border-bottom: 2px solid black;
+      }
       table {
         width: 100%;
         margin-top: 30px;
@@ -146,6 +156,7 @@
       <div>
         <input type="number" id="employeeID" placeholder="Enter Employee ID" />
         <button onclick="getEmployeeDetails()">Search</button>
+        <a href="index.html" class="home-link">Home</a>
       </div>
 
       <table id="employeeTable">
@@ -229,6 +240,15 @@
           .getElementsByTagName("tbody")[0];
         tableBody.innerHTML = "";
       }
+
+      // Add an event listener for the Enter key
+      document
+        .getElementById("employeeID")
+        .addEventListener("keydown", function (event) {
+          if (event.key === "Enter") {
+            getEmployeeDetails(); // Call the function on Enter key press
+          }
+        });
     </script>
   </body>
 </html>
