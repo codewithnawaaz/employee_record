@@ -233,7 +233,7 @@
         tableBody.innerHTML = "";
 
         for (const key in employee) {
-          if (key.includes("November") || key.includes("December")) {
+          if (key.includes("December") || key.includes("January")) {
             const row = tableBody.insertRow();
             row.insertCell(0).textContent = key;
             row.insertCell(1).textContent = employee[key];
