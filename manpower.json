@@ -19,6 +19,12 @@
   },
   {
     "Site": "HC-02",
+    "Name": "Aiman",
+    "ID": 3753,
+    "Position": "Supervisor"
+  },
+  {
+    "Site": "HC-02",
     "Name": "MD Shahid",
     "ID": 2927,
     "Position": "Team Leader"
@@ -57,6 +63,12 @@
     "Site": "HC-02",
     "Name": "Jai Shankar",
     "ID": 2941,
+    "Position": "Safety Officer"
+  },
+  {
+    "Site": "HC-02",
+    "Name": "Adeel Asgar",
+    "ID": 4581,
     "Position": "Safety Officer"
   },
   {
@@ -409,18 +421,6 @@
   },
   {
     "Site": "HC-02",
-    "Name": "Drisse Abbaze",
-    "ID": 3834,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Mohamed Benkara",
-    "ID": 3836,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-02",
     "Name": "Imad Zahid",
     "ID": 3837,
     "Position": "Gypsum Installer"
@@ -687,12 +687,6 @@
     "Site": "HC-02",
     "Name": "Mohammad Sabir",
     "ID": 3016,
-    "Position": "Painter"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Manoj Kumar",
-    "ID": 2904,
     "Position": "Painter"
   },
   {
@@ -1171,48 +1165,6 @@
   },
   {
     "Site": "HC-02",
-    "Name": "Sajjad khan",
-    "ID": 4739,
-    "Position": "Carpenter"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Md Ashraf",
-    "ID": 4738,
-    "Position": "Carpenter"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Shahnawaz Hafeez",
-    "ID": 4735,
-    "Position": "Carpenter"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Fayaz ahmad",
-    "ID": 4749,
-    "Position": "Carpenter"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Chand Babu",
-    "ID": 4719,
-    "Position": "Carpenter"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Parvez",
-    "ID": 1277,
-    "Position": "Carpenter"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Mithlesh Kumar",
-    "ID": 4718,
-    "Position": "Carpenter"
-  },
-  {
-    "Site": "HC-02",
     "Name": "Ibrahim Abdul",
     "ID": 1945,
     "Position": "Electrician"
@@ -1291,7 +1243,7 @@
   },
   {
     "Site": "HC-03",
-    "Name": "Anil Mahto (Team leader)",
+    "Name": "Anil Mahato ",
     "ID": 4445,
     "Position": "Painter Leader"
   },
@@ -2143,12 +2095,6 @@
   },
   {
     "Site": "HC-03",
-    "Name": "Mohammed Shoyab (Hashim)",
-    "ID": 2814,
-    "Position": "Mason-Tiler"
-  },
-  {
-    "Site": "HC-03",
     "Name": "Firoj Mohammad (Hashim)",
     "ID": 2815,
     "Position": "Mason-Tiler"
@@ -2623,6 +2569,18 @@
   },
   {
     "Site": "HC-03",
+    "Name": "Drisse Abbaze",
+    "ID": 3834,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-03",
+    "Name": "Mohamed Benkara",
+    "ID": 3836,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-03",
     "Name": "Irfan",
     "ID": 4137,
     "Position": "Gypsum Installer"
@@ -2643,12 +2601,6 @@
     "Site": "HC-03",
     "Name": "Taupheer Khan",
     "ID": 4139,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Mayur Khan",
-    "ID": 4138,
     "Position": "Gypsum Installer"
   },
   {
