@@ -7,12 +7,12 @@
   },
   {
     "Site": "HC-02",
-    "Name": "Ahmed Mohammad",
+    "Name": "Ahmed Shirbini",
     "ID": 3827,
     "Position": "Supervisor"
   },
   {
-    "Site": "HC-02",
+    "Site": "HC-02/On_Leave",
     "Name": "Mustafa ",
     "ID": 4238,
     "Position": "Supervisor"
@@ -61,21 +61,15 @@
   },
   {
     "Site": "HC-02",
-    "Name": "Jai Shankar",
-    "ID": 2941,
-    "Position": "Safety Officer"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Adeel Asgar",
-    "ID": 4581,
-    "Position": "Safety Officer"
-  },
-  {
-    "Site": "HC-02",
     "Name": "Shahid Hussain",
     "ID": 3854,
     "Position": "Safety Officer"
+  },
+  {
+    "Site": "HC-02",
+    "Name": "Adeel Asghar",
+    "ID": 4581,
+    "Position": "Safety officer"
   },
   {
     "Site": "HC-02",
@@ -96,7 +90,7 @@
     "Position": "Gypsum Foreman"
   },
   {
-    "Site": "HC-02",
+    "Site": "HC-02/On_Leave",
     "Name": "Julius Arce",
     "ID": 3110,
     "Position": "General Foreman"
@@ -106,12 +100,6 @@
     "Name": "Rashid Chouhan",
     "ID": 3186,
     "Position": "General Foreman"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Mohammad Humaidi",
-    "ID": 2287,
-    "Position": "Welder Foreman"
   },
   {
     "Site": "HC-02",
@@ -141,6 +129,12 @@
     "Site": "HC-02",
     "Name": "Ibrahim Mustafa ",
     "ID": 2898,
+    "Position": "Painter Leader"
+  },
+  {
+    "Site": "HC-02",
+    "Name": "Anil Mahato ",
+    "ID": 4445,
     "Position": "Painter Leader"
   },
   {
@@ -489,6 +483,12 @@
     "Site": "HC-02",
     "Name": "Mohammad Shakir",
     "ID": 3146,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-02",
+    "Name": "Shabab Khan",
+    "ID": 4140,
     "Position": "Gypsum Installer"
   },
   {
@@ -943,6 +943,66 @@
   },
   {
     "Site": "HC-02",
+    "Name": "Waqar Azeem ",
+    "ID": 2220,
+    "Position": "Painter"
+  },
+  {
+    "Site": "HC-02",
+    "Name": "Taj Mohammad",
+    "ID": 2983,
+    "Position": "Painter"
+  },
+  {
+    "Site": "HC-02",
+    "Name": "GOBIND DHOBI",
+    "ID": 4160,
+    "Position": "Painter"
+  },
+  {
+    "Site": "HC-02",
+    "Name": "IMRAN HUSSAIN",
+    "ID": 4780,
+    "Position": "Painter"
+  },
+  {
+    "Site": "HC-02",
+    "Name": "Mohammad Razu",
+    "ID": 4558,
+    "Position": "Painter"
+  },
+  {
+    "Site": "HC-02",
+    "Name": "Sagar Akan",
+    "ID": 4570,
+    "Position": "Painter"
+  },
+  {
+    "Site": "HC-02",
+    "Name": "Dilnawaj Ali",
+    "ID": 4771,
+    "Position": "Painter"
+  },
+  {
+    "Site": "HC-02",
+    "Name": "KASHIF SHAHZAD",
+    "ID": 4782,
+    "Position": "Painter"
+  },
+  {
+    "Site": "HC-02",
+    "Name": "ABUBAKAR SHAFIQUE",
+    "ID": 4783,
+    "Position": "Painter"
+  },
+  {
+    "Site": "HC-02",
+    "Name": "NAZARAT MUNIR",
+    "ID": 4790,
+    "Position": "Painter"
+  },
+  {
+    "Site": "HC-02",
     "Name": "Md Naved",
     "ID": 4740,
     "Position": "Painter"
@@ -1243,9 +1303,9 @@
   },
   {
     "Site": "HC-03",
-    "Name": "Anil Mahato ",
-    "ID": 4445,
-    "Position": "Painter Leader"
+    "Name": "Mohammad Humaidi",
+    "ID": 2287,
+    "Position": "Welder Foreman"
   },
   {
     "Site": "HC-03",
@@ -1555,12 +1615,6 @@
   },
   {
     "Site": "HC-03",
-    "Name": "Waqar Azeem ",
-    "ID": 2220,
-    "Position": "Painter"
-  },
-  {
-    "Site": "HC-03",
     "Name": "Dilip Mandal Khatbe",
     "ID": 2173,
     "Position": "Painter"
@@ -1581,12 +1635,6 @@
     "Site": "HC-03",
     "Name": "Dileep Sah",
     "ID": 2950,
-    "Position": "Painter"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Taj Mohammad",
-    "ID": 2983,
     "Position": "Painter"
   },
   {
@@ -1635,12 +1683,6 @@
     "Site": "HC-03",
     "Name": "DINESH KAHAR",
     "ID": 4161,
-    "Position": "Painter"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "GOBIND DHOBI",
-    "ID": 4160,
     "Position": "Painter"
   },
   {
@@ -1759,12 +1801,6 @@
   },
   {
     "Site": "HC-03",
-    "Name": "Mohammad Razu",
-    "ID": 4558,
-    "Position": "Painter"
-  },
-  {
-    "Site": "HC-03",
     "Name": "Atikul Hossain",
     "ID": 4571,
     "Position": "Painter"
@@ -1795,20 +1831,8 @@
   },
   {
     "Site": "HC-03",
-    "Name": "Sagar Akan",
-    "ID": 4570,
-    "Position": "Painter"
-  },
-  {
-    "Site": "HC-03",
     "Name": "Imran Mohammad Peru",
     "ID": 2937,
-    "Position": "Painter"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Dilnawaj Ali",
-    "ID": 4771,
     "Position": "Painter"
   },
   {
@@ -1819,38 +1843,14 @@
   },
   {
     "Site": "HC-03",
-    "Name": "IMRAN HUSSAIN",
-    "ID": 4780,
-    "Position": "Painter"
-  },
-  {
-    "Site": "HC-03",
     "Name": "ARIF ALI",
     "ID": 4781,
     "Position": "Painter"
   },
   {
     "Site": "HC-03",
-    "Name": "KASHIF SHAHZAD",
-    "ID": 4782,
-    "Position": "Painter"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "ABUBAKAR SHAFIQUE",
-    "ID": 4783,
-    "Position": "Painter"
-  },
-  {
-    "Site": "HC-03",
     "Name": "AQIB ALI",
     "ID": 4784,
-    "Position": "Painter"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "NAZARAT MUNIR",
-    "ID": 4790,
     "Position": "Painter"
   },
   {
@@ -2589,12 +2589,6 @@
     "Site": "HC-03",
     "Name": "Ahmad Noor",
     "ID": 4141,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Shabab Khan",
-    "ID": 4140,
     "Position": "Gypsum Installer"
   },
   {
