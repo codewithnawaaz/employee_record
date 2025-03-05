@@ -12,7 +12,7 @@
     "Position": "Supervisor"
   },
   {
-    "Site": "HC-02/On_Leave",
+    "Site": "HC-02",
     "Name": "Mustafa ",
     "ID": 4238,
     "Position": "Supervisor"
@@ -96,7 +96,7 @@
     "Position": "General Foreman"
   },
   {
-    "Site": "HC-02",
+    "Site": "HC-02/Transfered to Amala",
     "Name": "Rashid Chouhan",
     "ID": 3186,
     "Position": "General Foreman"
@@ -114,7 +114,7 @@
     "Position": "Tiler Leader"
   },
   {
-    "Site": "HC-02",
+    "Site": "HC-02/Transferd to Amala",
     "Name": "Miton Miah",
     "ID": 2644,
     "Position": "Tiler Leader"
