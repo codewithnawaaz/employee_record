@@ -12,24 +12,6 @@
     "Position": "Supervisor"
   },
   {
-    "Site": "Mainland",
-    "Name": "Rizwan",
-    "ID": 4717,
-    "Position": "Planning Engineer"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Mustafa ",
-    "ID": 4238,
-    "Position": "Supervisor"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Aiman",
-    "ID": 3753,
-    "Position": "Supervisor/Trasnfer to Amala"
-  },
-  {
     "Site": "HC-02",
     "Name": "MD Shahid",
     "ID": 2927,
@@ -79,6 +61,12 @@
   },
   {
     "Site": "HC-02",
+    "Name": "Jai Shankar Tiwari",
+    "ID": 2941,
+    "Position": "Safety Officer"
+  },
+  {
+    "Site": "HC-02",
     "Name": "Mohammed Fateh",
     "ID": 1595,
     "Position": "Gypsum Foreman"
@@ -96,18 +84,6 @@
     "Position": "Gypsum Foreman"
   },
   {
-    "Site": "HC-02/On_Leave",
-    "Name": "Julius Arce",
-    "ID": 3110,
-    "Position": "General Foreman"
-  },
-  {
-    "Site": "HC-02/Transfered to Amala",
-    "Name": "Rashid Chouhan",
-    "ID": 3186,
-    "Position": "General Foreman"
-  },
-  {
     "Site": "HC-02",
     "Name": "Juber Ahmad",
     "ID": 2081,
@@ -120,12 +96,6 @@
     "Position": "Tiler Leader"
   },
   {
-    "Site": "HC-02/Transferd to Amala",
-    "Name": "Miton Miah",
-    "ID": 2644,
-    "Position": "Tiler Leader"
-  },
-  {
     "Site": "HC-02",
     "Name": "Mahmoud Bedir",
     "ID": 2360,
@@ -135,12 +105,6 @@
     "Site": "HC-02",
     "Name": "Ibrahim Mustafa ",
     "ID": 2898,
-    "Position": "Painter Leader"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Anil Mahato ",
-    "ID": 4445,
     "Position": "Painter Leader"
   },
   {
@@ -433,18 +397,6 @@
   },
   {
     "Site": "HC-02",
-    "Name": "Mohamed Elsayed",
-    "ID": 3984,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "AlMustafa Mohammed",
-    "ID": 4051,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-02",
     "Name": "Ali Sanjar",
     "ID": 3001,
     "Position": "Gypsum Installer"
@@ -517,12 +469,6 @@
   },
   {
     "Site": "HC-02",
-    "Name": "Hasan Ali",
-    "ID": 2165,
-    "Position": "Mason"
-  },
-  {
-    "Site": "HC-02",
     "Name": "Anil Kumar Yadav",
     "ID": 3091,
     "Position": "Mason - Tiler"
@@ -543,12 +489,6 @@
     "Site": "HC-02",
     "Name": "Shokha Ram",
     "ID": 3199,
-    "Position": "Mason - Tiler"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Irshad Ali",
-    "ID": 3150,
     "Position": "Mason - Tiler"
   },
   {
@@ -585,12 +525,6 @@
     "Site": "HC-02",
     "Name": "Joey Dichoso",
     "ID": 3108,
-    "Position": "Mason - Tiler"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "John Connor",
-    "ID": 3229,
     "Position": "Mason - Tiler"
   },
   {
@@ -1009,8 +943,14 @@
   },
   {
     "Site": "HC-02",
-    "Name": "Md Naved",
-    "ID": 4740,
+    "Name": "Mohsin Ali",
+    "ID": 1362,
+    "Position": "Painter"
+  },
+  {
+    "Site": "HC-02",
+    "Name": "Loyd",
+    "ID": 1774,
     "Position": "Painter"
   },
   {
@@ -1063,6 +1003,12 @@
   },
   {
     "Site": "HC-02",
+    "Name": "Parvez",
+    "ID": 1277,
+    "Position": "Welder"
+  },
+  {
+    "Site": "HC-02",
     "Name": "Md Safeer",
     "ID": 1695,
     "Position": "Carpenter"
@@ -1093,12 +1039,6 @@
   },
   {
     "Site": "HC-02",
-    "Name": "Md Tasveer",
-    "ID": 3175,
-    "Position": "Carpenter"
-  },
-  {
-    "Site": "HC-02",
     "Name": "Md Bilal",
     "ID": 3176,
     "Position": "Carpenter"
@@ -1111,14 +1051,8 @@
   },
   {
     "Site": "HC-02",
-    "Name": "Md Nadeem",
-    "ID": 3114,
-    "Position": "Carpenter"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Loyd",
-    "ID": 1774,
+    "Name": "Hasnain",
+    "ID": 4615,
     "Position": "Carpenter"
   },
   {
@@ -1141,8 +1075,8 @@
   },
   {
     "Site": "HC-02",
-    "Name": "Noor basar",
-    "ID": 4627,
+    "Name": "Shafqat Qureshi",
+    "ID": 4736,
     "Position": "Carpenter"
   },
   {
@@ -1207,30 +1141,6 @@
   },
   {
     "Site": "HC-02",
-    "Name": "Aqib ali",
-    "ID": 4620,
-    "Position": "Carpenter"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Kabeer Ahmad",
-    "ID": 4750,
-    "Position": "Carpenter"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Shafaqat Qureshi ",
-    "ID": 4736,
-    "Position": "Carpenter"
-  },
-  {
-    "Site": "HC-02",
-    "Name": "Waeem Anjum",
-    "ID": 4737,
-    "Position": "Carpenter"
-  },
-  {
-    "Site": "HC-02",
     "Name": "Ibrahim Abdul",
     "ID": 1945,
     "Position": "Electrician"
@@ -1291,12 +1201,6 @@
   },
   {
     "Site": "HC-03",
-    "Name": "Abdelkrim Khairi",
-    "ID": 4077,
-    "Position": "Foreman/Transfer Amala on 27feb"
-  },
-  {
-    "Site": "HC-03",
     "Name": "Mohammad Wasi",
     "ID": 3004,
     "Position": "Gypsum Foreman"
@@ -1336,6 +1240,12 @@
     "Name": "Jahangir Alom",
     "ID": 1599,
     "Position": "Team Leader"
+  },
+  {
+    "Site": "HC-03",
+    "Name": "Anil Mahato ",
+    "ID": 4445,
+    "Position": "Painter Leader"
   },
   {
     "Site": "HC-03",
@@ -1915,12 +1825,6 @@
   },
   {
     "Site": "HC-03",
-    "Name": "Rajib Molla",
-    "ID": 2316,
-    "Position": "Mason"
-  },
-  {
-    "Site": "HC-03",
     "Name": "Gopal Mangi",
     "ID": 2996,
     "Position": "Mason"
@@ -2013,6 +1917,12 @@
     "Site": "HC-03",
     "Name": "Rubel Ali",
     "ID": 2303,
+    "Position": "Mason"
+  },
+  {
+    "Site": "HC-03",
+    "Name": "Hasan Ali",
+    "ID": 2165,
     "Position": "Mason"
   },
   {
@@ -2377,48 +2287,6 @@
   },
   {
     "Site": "HC-03",
-    "Name": "Md Zihadul Islam",
-    "ID": 2885,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Mohammad Javed",
-    "ID": 2920,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Akkas Ali ",
-    "ID": 2820,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Mohammad Abdulla",
-    "ID": 3276,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Basudev Murau",
-    "ID": 2947,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Dharmendra Ram",
-    "ID": 2936,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Noor Ahmad Safeek",
-    "ID": 3277,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-03",
     "Name": "Nouruldeen Al Aboudi",
     "ID": 3833,
     "Position": "Gypsum Installer"
@@ -2587,6 +2455,78 @@
   },
   {
     "Site": "HC-03",
+    "Name": "El Hassan Amakrane",
+    "ID": 3838,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-03",
+    "Name": "Mouhcine Krimi",
+    "ID": 4050,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-03",
+    "Name": "Hisham Tassaggort",
+    "ID": 4053,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-03",
+    "Name": "Redouane Fetnassi",
+    "ID": 3043,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-03",
+    "Name": "Abdelghani Ouhazza",
+    "ID": 4703,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-03",
+    "Name": "Md Zihadul Islam",
+    "ID": 2885,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-03",
+    "Name": "Mohammad Javed",
+    "ID": 2920,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-03",
+    "Name": "Akkas Ali ",
+    "ID": 2820,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-03",
+    "Name": "Mohammad Abdulla",
+    "ID": 3276,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-03",
+    "Name": "Basudev Murau",
+    "ID": 2947,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-03",
+    "Name": "Dharmendra Ram",
+    "ID": 2936,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-03",
+    "Name": "Noor Ahmad Safeek",
+    "ID": 3277,
+    "Position": "Gypsum Installer"
+  },
+  {
+    "Site": "HC-03",
     "Name": "Irfan",
     "ID": 4137,
     "Position": "Gypsum Installer"
@@ -2629,7 +2569,7 @@
   },
   {
     "Site": "HC-03",
-    "Name": "Arif Abdur Razzak (Group Leader) (Hashim)",
+    "Name": "Arif Abdur Razzak (Hashim)",
     "ID": 2818,
     "Position": "Gypsum Installer"
   },
@@ -2701,36 +2641,6 @@
   },
   {
     "Site": "HC-03",
-    "Name": "El Hassan Amakrane",
-    "ID": 3838,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Mouhcine Krimi",
-    "ID": 4050,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Hisham Tassaggort",
-    "ID": 4053,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Redouane Fetnassi",
-    "ID": 3043,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Abdelghani Ouhazza",
-    "ID": 4703,
-    "Position": "Gypsum Installer"
-  },
-  {
-    "Site": "HC-03",
     "Name": "Ghulam Abbas",
     "ID": 2223,
     "Position": "Gypsum Installer"
@@ -2794,17 +2704,5 @@
     "Name": "Abdul Danish",
     "ID": 3491,
     "Position": "Surveyor Assistant"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Nafees Kilania",
-    "ID": 3286,
-    "Position": "Terminated"
-  },
-  {
-    "Site": "HC-03",
-    "Name": "Soyab",
-    "ID": 2814,
-    "Position": "On Leave Last duty 14/FEB"
   }
 ]
